@@ -7,11 +7,18 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Привет, уважаемый пользователь!!"
+        android:text="Привет, уважаемый пользователь!"
         android:textSize="25sp"
         android:textColor="@android:color/black"
-        android:layout_centerInParent="true" />
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"/>
 
 </RelativeLayout>
